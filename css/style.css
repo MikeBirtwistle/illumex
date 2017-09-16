@@ -15,7 +15,7 @@ body {
 
 @font-face {
 	font-family:'Rounded-Elegance'; 
-	src: url('../fonts/Rounded_Elegance.ttf'); format("truetype");
+	src: url('../fonts/Rounded_Elegance.ttf'), format("truetype");
 }
 
 #illumexImage {
@@ -84,3 +84,4 @@ body {
 	}
 
 }
+
