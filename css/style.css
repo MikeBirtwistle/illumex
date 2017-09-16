@@ -1,1 +1,38 @@
-css
+html {
+	width: 100%;
+}
+
+body {
+	background-color: #00a4ff;
+}
+
+@keyframes flash {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+#illumexImage {
+	width:600px;
+	height:auto;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:180px;
+}
+
+#flash {
+	color:white;
+	font-size:x-large;
+	height:auto;
+	text-align:center;
+	animation:flash 1.5s ease-in-out 1s infinite alternate;
+}
+
+#slogan {
+	color:white;
+	font-size:xx-large;
+	height:auto;
+	position:absolute;
+	bottom:1px;
+	right:14px;
+}
