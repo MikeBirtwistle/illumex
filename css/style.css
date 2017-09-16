@@ -13,6 +13,11 @@ body {
     100% {opacity: 0;}
 }
 
+@font-face {
+	font-family:'Rounded-Elegance'; 
+	src: url('../fonts/Rounded_Elegance.ttf'); format("truetype");
+}
+
 #illumexImage {
 	width:600px;
 	height:auto;
@@ -23,6 +28,7 @@ body {
 }
 
 #flash {
+	font-family:'Rounded-Elegance', 'sans-serif';
 	color:white;
 	font-size:xx-large;
 	height:auto;
@@ -31,8 +37,9 @@ body {
 }
 
 #slogan {
+	font-family:'Rounded-Elegance', 'sans-serif';
 	color:white;
-	font-size:xx-large;
+	font-size:45px;
 	height:auto;
 	position:absolute;
 	bottom:0px;
