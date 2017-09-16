@@ -13,11 +13,6 @@ body {
     100% {opacity: 0;}
 }
 
-@font-face {
-	font-family:'Rounded-Elegance'; 
-	src: url('../fonts/Rounded_Elegance.ttf'), format("truetype");
-}
-
 #illumexImage {
 	width:600px;
 	height:auto;
@@ -44,6 +39,11 @@ body {
 	position:absolute;
 	bottom:0px;
 	right:14px;
+}
+
+@font-face {
+	font-family:'Rounded-Elegance'; 
+	src: url('../fonts/Rounded_Elegance.ttf');
 }
 
 /**************************** Media Queries ****************************/
