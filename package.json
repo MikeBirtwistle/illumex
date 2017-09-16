@@ -1,0 +1,25 @@
+{
+  "name": "illumex",
+  "version": "1.0.0",
+  "description": "A simple static landing site for a friends new startup business",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikeBirtwistle/illumex.git"
+  },
+  "keywords": [
+    "illumex",
+    "illuminated",
+    "signs",
+    "displays"
+  ],
+  "author": "Mike Birtwistle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikeBirtwistle/illumex/issues"
+  },
+  "homepage": "https://github.com/MikeBirtwistle/illumex#readme"
+}
