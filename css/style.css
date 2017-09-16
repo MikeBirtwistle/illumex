@@ -1,3 +1,5 @@
+/*************************** Main Styling ***************************/
+
 html {
 	width: 100%;
 }
@@ -22,7 +24,7 @@ body {
 
 #flash {
 	color:white;
-	font-size:x-large;
+	font-size:xx-large;
 	height:auto;
 	text-align:center;
 	animation:flash 1.5s ease-in-out 1s infinite alternate;
@@ -35,4 +37,43 @@ body {
 	position:absolute;
 	bottom:1px;
 	right:14px;
+}
+
+/**************************** Media Queries ****************************/
+
+/**************************** Portrait Phone ***************************/
+
+@media (min-width: 100px) and (max-width: 480px) {
+	
+	#illumexImage {
+		width:330px;
+	}
+
+	#flash {
+		font-size:large;
+	}
+
+	#slogan {
+		font-size:large;
+	}
+
+}
+
+/**************************** Landscape Phone ***************************/
+
+@media (min-width: 481px) and (max-width: 700px) {
+
+	#illumexImage {
+		width:550px;
+		margin-top:50px;
+	}
+
+	#flash {
+		font-size:x-large;
+	}
+
+	#slogan {
+		font-size:x-large;
+	}
+
 }
