@@ -35,7 +35,7 @@ body {
 	font-size:xx-large;
 	height:auto;
 	position:absolute;
-	bottom:1px;
+	bottom:0px;
 	right:14px;
 }
 
@@ -75,5 +75,17 @@ body {
 	#slogan {
 		font-size:x-large;
 	}
+
+}
+
+/**************************** Portrait Tablet ***************************/
+
+@media (min-width: 701px) and (max-width: 900px) {
+
+}
+
+/**************************** Landscape Tablet ***************************/
+
+@media (min-width: 901px) and (max-width: 1050px) {
 
 }
