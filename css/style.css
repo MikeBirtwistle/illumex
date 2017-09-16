@@ -84,15 +84,3 @@ body {
 	}
 
 }
-
-/**************************** Portrait Tablet ***************************/
-
-@media (min-width: 701px) and (max-width: 900px) {
-
-}
-
-/**************************** Landscape Tablet ***************************/
-
-@media (min-width: 901px) and (max-width: 1050px) {
-
-}
