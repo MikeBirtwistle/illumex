@@ -29,6 +29,7 @@ body {
 	height:auto;
 	text-align:center;
 	animation:on-off 1.5s ease-in-out 1s infinite alternate;
+	margin-top:-10px;
 }
 
 #slogan {
@@ -37,8 +38,8 @@ body {
 	font-size:45px;
 	height:auto;
 	position:absolute;
-	bottom:0px;
-	right:14px;
+	bottom:-35px;
+	right:15px;
 }
 
 @font-face {
