@@ -59,6 +59,7 @@ body {
 
 	#flash {
 		font-size:large;
+		margin-top:0px;
 	}
 
 	#slogan {
@@ -86,3 +87,9 @@ body {
 
 }
 
+/**************************** Portrait Tablet ***************************/
+
+@media (min-width: 701px) and (max-width: 900px) {
+
+	#illumexImage {
+		margin-top:250px;
