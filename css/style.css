@@ -58,13 +58,13 @@ body {
 	}
 
 	#flash {
-		font-size:large;
+		font-size:x-large;
 		margin-top:0px;
 	}
 
 	#slogan {
-		font-size:large;
-		margin-bottom:20px;
+		font-size:x-large;
+		margin-bottom:45px;
 	}
 
 }
@@ -84,7 +84,8 @@ body {
 
 	#slogan {
 		font-size:x-large;
-		margin-bottom:20px;
+		margin-bottom:45px;
+		margin-right:10px;
 	}
 
 }
